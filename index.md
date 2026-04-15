@@ -477,9 +477,10 @@ during the workshop.
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/setup.html %}
+<strong> Please check the “Setup” page of the lesson site for instructions to follow to obtain the software and data you will need to follow the lesson.</strong> 
+Be sure to check your setup prior to the workshop — the earlier the better. If you need any assistance, please visit the Data Science Hub at 
+<a href="https://datascience.wisc.edu/hub/#dropin">Coding Meetup</a> on Tue/Thur, 2:30-4:30pm.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% elsif site.carpentry == "incubator" %}
-“<strong> Please check the “Setup” page of the lesson site for instructions to follow to obtain the software and data you will need to follow the lesson.</strong> 
-Be sure to check your setup prior to the workshop — the earlier the better. If you need any assistance, please visit the Data Science Hub at <a href="https://datascience.wisc.edu/hub/#dropin">Coding Meetup</a> on Tue/Thur, 2:30-4:30pm." 
 {% endif %}
