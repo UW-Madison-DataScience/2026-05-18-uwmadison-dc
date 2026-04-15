@@ -121,9 +121,6 @@ The schedule for the different curricula are listed here:
 
 {% elsif site.curriculum == "dc-image" %}
 
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 1</h3>
     <table class="table table-striped">
       <tr>
 	<td>Before starting</td>
@@ -132,10 +129,11 @@ The schedule for the different curricula are listed here:
       <tr><td>Day 1</td> <td> <a href="https://datacarpentry.org/image-processing/01-introduction.html">Introduction</a>, <a href="https://datacarpentry.org/image-processing/02-image-basics.html">Image Basics</a>, <a href="https://datacarpentry.org/image-processing/03-skimage-images.html">Working with skimage</a></td></tr>
       <tr><td>Day 2</td> <td> <a href="https://datacarpentry.org/image-processing/04-drawing.html">Drawing and Bitwise Operations</a>, <a href="https://datacarpentry.org/image-processing/03-skimage-images.html">Working with skimage</a> </td></tr>
       <tr><td>Day 3</td><td> <a href="https://datacarpentry.org/image-processing/06-blurring.html">Blurring Images</a>,<a href="https://datacarpentry.github.io/image-processing/07-thresholding.html">Thresholding</a> </td>
-      <tr><td>Day 4</td><td><a href="https://datacarpentry.org/image-processing/08-connected-components.html">Connected Component Analysis</a>,<a href="https://datacarpentry.org/image-processing/09-challenges.html">Capstone Challenge</a></td> </tr>
+      <tr><td>Day 4</td><td> <a href="https://datacarpentry.org/image-processing/08-connected-components.html">Connected Component Analysis</a>,<a href="https://datacarpentry.org/image-processing/09-challenges.html">Capstone Challenge</a></td> 
+      <tr><td>After workshop</td><td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+      </tr>
 	</table>
-  </div>
-</div>
+
 
 
 {% elsif site.curriculum == "dc-genomics" %}
